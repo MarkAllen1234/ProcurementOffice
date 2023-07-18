@@ -1,0 +1,14 @@
+ion-menu-button {
+  color: #fff;
+}
+ion-header {
+  ion-toolbar {
+    --background: #ff3535 !important;
+    ion-title {
+      color: #fff;
+    }
+  }
+}
+ion-title {
+  text-transform: capitalize;
+}

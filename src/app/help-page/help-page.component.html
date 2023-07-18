@@ -1,0 +1,122 @@
+<div class="container">
+  <ion-accordion-group>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="danger" class="header-item">
+        <ion-icon name="analytics" slot="start"></ion-icon>
+        <ion-label>Dashboard</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <h2>Dashboard</h2>
+        <p>
+          The dashboard provides an overview of the materials used in Batangas
+          State University. It displays key information and statistics to help
+          you monitor and manage procurement activities effectively.
+        </p>
+        <h3>Key Metrics</h3>
+        <ul id="dashboard-metrics">
+          <li>
+            Total Quantity:
+            <span id="total-quantity"
+              >[Total quantity of items in the inventory]</span
+            >
+          </li>
+          <li>
+            Total Items:
+            <span id="total-items"
+              >[Total number of items in the inventory]</span
+            >
+          </li>
+          <li>
+            Total Costs:
+            <span id="total-costs"
+              >[Total cost of all items in the inventory]</span
+            >
+          </li>
+          <li>
+            Highest Price:
+            <span id="highest-price"
+              >[Highest price of an item in the inventory]</span
+            >
+          </li>
+          <li>
+            Lowest Price:
+            <span id="lowest-price"
+              >[Lowest price of an item in the inventory]</span
+            >
+          </li>
+        </ul>
+      </div>
+    </ion-accordion>
+
+    <ion-accordion value="second">
+      <ion-item slot="header" color="danger" class="header-item">
+        <ion-icon name="folder-open" slot="start"></ion-icon>
+        <ion-label>Inventory</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <h2>Inventory</h2>
+        <p>
+          The inventory section allows you to view and manage the data related
+          to the materials in Batangas State University.
+        </p>
+        <h3>Table Format</h3>
+        <p>
+          The inventory is displayed in a table format, providing a structured
+          view of the data. The table typically includes the following columns:
+        </p>
+        <ul>
+          <li>Item No</li>
+          <li>Item Name</li>
+          <li>Item Unit</li>
+          <li>Quantity</li>
+          <li>Unit Price</li>
+          <li>Amount</li>
+        </ul>
+      </div>
+    </ion-accordion>
+
+    <ion-accordion value="third">
+      <ion-item slot="header" color="danger" class="header-item">
+        <ion-icon name="cloud-upload" slot="start"></ion-icon>
+        <ion-label>Add Data</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <h2>Upload</h2>
+        <p>
+          The "Upload Data" feature allows you to input and add new materials to
+          the inventory. It provides instructions or guidelines for adding data.
+        </p>
+      </div>
+    </ion-accordion>
+
+    <ion-accordion value="fourth">
+      <ion-item slot="header" color="danger" class="header-item">
+        <ion-icon name="create" slot="start"></ion-icon>
+        <ion-label>Edit Data</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <h2>Edit Data</h2>
+        <p>
+          The "Edit Data" feature enables you to modify the existing data of
+          materials in the inventory. It provides instructions on accessing and
+          editing specific fields or records.
+        </p>
+      </div>
+    </ion-accordion>
+
+    <ion-accordion value="fifth">
+      <ion-item slot="header" color="danger" class="header-item">
+        <ion-icon name="trash" slot="start"></ion-icon>
+        <ion-label>Delete Data</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <h2>Delete Data</h2>
+        <p>
+          The "Delete Data" feature allows you to remove materials from the
+          inventory. It provides instructions or guidelines for selecting and
+          deleting specific items or records.
+        </p>
+      </div>
+    </ion-accordion>
+  </ion-accordion-group>
+</div>

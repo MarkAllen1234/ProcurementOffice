@@ -1,0 +1,93 @@
+<div class="container">
+  <div class="content">
+    <ion-list>
+      <ion-item>
+        <ion-input
+          id="itemNo"
+          label="Item No"
+          labelPlacement="stacked"
+          [clearInput]="true"
+          placeholder="Item No"
+          [(ngModel)]="itemNo"
+          type="number"
+        >
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input
+          id="itemName"
+          label="Item Name"
+          labelPlacement="stacked"
+          [clearInput]="true"
+          placeholder="Item Name"
+          [(ngModel)]="itemName"
+          type="text"
+        >
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input
+          id="itemUnit"
+          label="Item Unit"
+          labelPlacement="stacked"
+          [clearInput]="true"
+          placeholder="Item Unit"
+          [(ngModel)]="itemUnit"
+          type="text"
+        >
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input
+          id="itemQuantity"
+          label="Item Quantity"
+          labelPlacement="stacked"
+          [clearInput]="true"
+          placeholder="Item Quantity"
+          [(ngModel)]="itemQuantity"
+          type="number"
+          (input)="updateTotal()"
+        >
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input
+          id="itemPrice"
+          label="Item Price"
+          labelPlacement="stacked"
+          [clearInput]="true"
+          placeholder="Item Price"
+          [(ngModel)]="itemPrice"
+          type="number"
+          (input)="updateTotal()"
+        >
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input
+          id="itemTotal"
+          label="Total Price"
+          labelPlacement="stacked"
+          [clearInput]="true"
+          placeholder="Total Price"
+          [(ngModel)]="itemTotal"
+          type="number"
+          [readonly]="true"
+        >
+        </ion-input>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-button
+          expand="full"
+          (click)="showAlert()"
+          color="success"
+          id="add-item"
+          size="default"
+        >
+          Add Item
+        </ion-button>
+      </ion-item>
+    </ion-list>
+  </div>
+</div>

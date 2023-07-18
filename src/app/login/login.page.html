@@ -1,0 +1,36 @@
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <img src="../../assets/logo.png" alt="BSU Logo" />
+    <h3>Procurement Monitoring System of BSU Alangilan </h3>
+    <form>
+      <h5>Welcome Users</h5>
+      <div class="error" *ngIf="error != ''">{{error}}</div>
+      <div class="input">
+        <ion-label>Email address</ion-label>
+        <ion-input
+          placeholder="Enter email address"
+          type="text"
+          [(ngModel)]="email"
+          name="email"
+          required
+        >
+        </ion-input>
+      </div>
+      <div class="input">
+        <ion-label>Password</ion-label>
+        <ion-input
+          placeholder="Enter text"
+          type="password"
+          [(ngModel)]="password"
+          name="password"
+          required
+        >
+        </ion-input>
+        <p>Forgot Password?</p>
+      </div>
+      <ion-button expand="full" color="primary" (click)="submitLogin()"
+        >Login</ion-button
+      >
+    </form>
+  </div>
+</ion-content>
