@@ -1,0 +1,5 @@
+# ProcurementOffice
+To address the issue, the researchers developed a Procurement Monitoring Application of BSU Alangilan, which attempts to automate the entire process of managing and monitoring product stock and supply in a department. Procuring products will be easier for the department if they consider using the app, which will save them from having to seek suppliers manually. The planned system will not allow for errors, especially when it comes to providing reports on the status of the department's stockpiles, whether they are sufficient or need to be refilled. The study aims to break the cycle of errors and delays in purchasing processes by developing a Procurement Monitoring Application that automates procurement transactions.
+DEL ROSARIO, MARK ALLEN
+FRUELDA, JED MORELL
+GIDA, GEASELLE B. 
